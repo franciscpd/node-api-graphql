@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "gulp": "npx gulp"
+    "gulp": "npx gulp",
+    "dev": "npx nodemon --delay 5 dist/app"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
     "gulp": "3.9.1",
     "gulp-clean": "0.3.2",
     "gulp-typescript": "3.2.2",
+    "nodemon": "^1.18.10",
     "typescript": "2.5.3"
   }
 }
